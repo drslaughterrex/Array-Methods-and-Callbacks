@@ -40,7 +40,7 @@ Use the higher-order function called getYears to do the following:
 
 function getYears(array, getFinalsCB) {
 	const finalYears = array.map(function (item) {
-		return getFinals(fifaData);
+		return getFinals(fifaData.years);
 	});
 	return finalYears;
 }
